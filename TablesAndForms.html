@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="TAF.css">
+        <title>Tables and Forms</title>
+    </head>
+
+    <body>
+        <div class="invoice-container">
+            <h2 class="invoice-title">Invoice Tabular Data</h2>
+        
+            <div class="invoice-header">
+              <div>Invoice #123456789</div>
+              <div>14 January 2025</div>
+            </div>
+        
+            <div class="invoice-address">
+              <div class="pay-to">
+                <strong>Pay to:</strong><br>
+                Legit Company<br>
+                123 Hollywood St.<br>
+                Metro Manila, PH 12345
+              </div>
+              <div class="customer">
+                <strong>Customer:</strong><br>
+                Humar Balen<br>
+                321 Almeda St.<br>
+                Tayuman Manila, PH 54321
+              </div>
+            </div>
+        
+            <table class="invoice-table">
+              <thead>
+                <tr>
+                  <th>Name / Description</th>
+                  <th>Qty.</th>
+                  <th>@</th>
+                  <th>Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Paperclips</td>
+                  <td>1000</td>
+                  <td>0.01</td>
+                  <td>10.00</td>
+                </tr>
+                <tr>
+                  <td>Staples (box)</td>
+                  <td>100</td>
+                  <td>1.00</td>
+                  <td>100.00</td>
+                </tr>
+                <tr>
+                  <td>Bond Paper (box)</td>
+                  <td>100</td>
+                  <td>1.00</td>
+                  <td>100.00</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">Subtotal</td>
+                  <td>110.00</td>
+                </tr>
+                <tr>
+                  <td colspan="3"><strong>Tax</strong><br>8%</td>
+                  <td>8.80</td>
+                </tr>
+                <tr class="grand-total">
+                  <td colspan="3"><strong>Grand Total</strong></td>
+                  <td><strong>$ 118.80</strong></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+
+          <div class="form-container">
+            <table class="form-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td><div class="blank-box"></div></td>
+                </tr>
+                <tr>
+                    <td>Sex:</td>
+                    <td>
+                      <ul>
+                        <li>Male</li>
+                        <li>Female</li>
+                        <li>Other</li>
+                      </ul>
+                    </td>
+                  </tr>
+                <tr>
+                  <td>Eye Color</td>
+                  <td><div class="blank-box"></div></td>
+                </tr>
+                <tr>
+                    <td>Check all the Applies</td>
+                    <td>
+                      <ul>
+                        <li>Over 6ft. Tall</li>
+                        <li>Over 200 pounds</li>
+                        <li>Less than 200 pounds</li>
+                      </ul>
+                    </td>
+                  </tr>
+                <tr>
+                    <td>Describe your athletic ability</td>
+                    <td><div class="blank-box" style="height: 80px;"></div></td>
+                  </tr>
+              </tbody>
+            </table>
+          
+            <div class="submit-btn">
+              <button>Enter my Information</button>
+            </div>
+          </div>
+    </body>
+</html>

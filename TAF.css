@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef6fa;
+    margin: 20px;
+  }
+  
+  .invoice-container {
+    max-width: 750px;
+    margin: auto;
+    border: 3px solid #2f3a55;
+    background-color: white;
+  }
+  
+  .invoice-title {
+    background-color: #a7d8eb;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .invoice-header {
+    background-color: #4b5b8c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .invoice-address {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .invoice-table th {
+    background-color: #c3d4eb;
+    text-align: left;
+  }
+  
+  .invoice-table tfoot td {
+    background-color: #e5e5e5;
+    font-weight: bold;
+  }
+  
+  .invoice-table tfoot .grand-total td {
+    background-color: #324e80;
+    color: white;
+  }
+
+  .form-container {
+    max-width: 750px;
+    margin: 30px auto;
+    border: 2px solid #2f3a55;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .form-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eef9ff;
+  }
+  
+  .form-table th,
+  .form-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .form-table th {
+    background-color: #bde2f4;
+    text-align: left;
+  }
+  
+  .submit-btn {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .submit-btn button {
+    background-color: #d9edf7;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn button:hover {
+    background-color: #c2e0f0;
+  }
+
+  .blank-box {
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 90%;
+    background-color: white;
+  }
+  
+  ul {
+    list-style-type: circle;
+    margin: 0;
+    padding-left: 20px;
+  }
